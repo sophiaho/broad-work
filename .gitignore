@@ -1,0 +1,12 @@
+# ignore everything
+*
+
+# track these files:
+!.gitignore
+!cancer_expression_heatmap.ipynb
+!cancer_cell_lines_data.ipynb
+!expression_analysis_part_2.ipynb
+!crispr_screen.ipynb
+!test_cancer_cell_lines.ipynb
+!test_cancer_expression_heatmap.ipynb
+!output/
