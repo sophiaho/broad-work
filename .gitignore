@@ -9,4 +9,5 @@
 !crispr_screen.ipynb
 !test_cancer_cell_lines.ipynb
 !test_cancer_expression_heatmap.ipynb
-!output/*
+!output/
+!output/*/
