@@ -9,6 +9,9 @@
 !crispr_screen.ipynb
 !test_cancer_cell_lines.ipynb
 !test_cancer_expression_heatmap.ipynb
+!tumor_survival_associations.ipynb
+!test_tumor_survival_associations.ipynb
 !output/
 !output/*
 !*.svg
+!*.ipynb
