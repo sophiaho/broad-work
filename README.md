@@ -39,10 +39,26 @@ When starting up a pre-existing virtualenv, use steps 5 and 8.
 1. After activating the virtual enviornment, you can download this repository using the github command line. make sure to have already navigated to the desired folder you wish to put these files in.\
 `git clone https://github.com/sophiaho/broad-work.git`
 
-2. to receive updated changes, use git pull. reminder that if you have any local changes, running git pull will cause a merge conflict
+2. to receive updated changes, use git pull. reminder that if you have any local changes, running git pull will cause a merge conflict\
 for more on git workflow: https://gist.github.com/blackfalcon/8428401  \
 `git pull origin master`
 
-<sub>note: please don't git push onto the master branch if you are adding changes </sub>
+<sup>note: please don't git push onto the master branch if you haven't coordinated with the other user </sup>
 
 
+## Using github with 1-2 users:
+
+1. After you have cloned the repository into your local computer, create a .gitignore file to choose what files you want and don't want to be added to github\
+
+2. Add any changed files using\
+`git add .`\
+The . means that git will add all of the files in your directory, so make sure you configure the .gitignore file first.\
+
+3. Commit these changes to the staging area with\
+`git commit -m "write a message"`\
+
+4. Push these changes (with 1-2 users, it's probably okay to just use 1 master branch)\
+`git push origin master`\
+
+5. If there are 2 users, the other user must pull down changes or there will be merge conflicts\
+`git pull origin master`
